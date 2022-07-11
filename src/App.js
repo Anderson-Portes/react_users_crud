@@ -133,8 +133,7 @@ function App() {
                     <i className="bi bi-trash me-2"></i>
                     Excluir
                   </Button>
-                  <Button variant="success" className="ms-2" onClick={() => updateUser(item)}
-                    className="w-100">
+                  <Button variant="success" className="ms-2 w-100" onClick={() => updateUser(item)}>
                     <i className="bi bi-pencil me-2"></i>
                     Editar
                   </Button>
